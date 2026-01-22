@@ -106,7 +106,7 @@ export default function Gallery() {
       {/* ===== TOP BIG CARD CONTAINER ===== */}
       <div className="w-full max-w-6xl p-6 mt-10 bg-white shadow-2xl rounded-3xl">
         <h1 className="mb-6 text-3xl font-bold text-center text-blue-900">
-          🌄 Natural Beauty Collection
+          🌄 Freedom Fighter
         </h1>
 
         <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
