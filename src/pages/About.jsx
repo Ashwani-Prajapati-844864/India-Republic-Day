@@ -1,30 +1,30 @@
 import { Link } from "react-router-dom";
 
 const galleryImages = [
-  "/a1.png",
-  "/s1.png",
-  "/p1.png",
-  "/a2.png",
-  "/s2.png",
-  "/p2.png",
-  "/a3.png",
-  "/a4.png",
-  "/a5.png",
-  "/a6.png",
-  "/a7.png",
-  "/a8.png",
-  "/a9.png",
-  "/a10.png",
-  "/a11.png",
-  "/a12.png",
-  "/a13.png",
-  "/a14.png",
+  "/image/a1.png",
+  "/image/s1.png",
+  "/image/p1.png",
+  "/image/a2.png",
+  "/image/s2.png",
+  "/image/p2.png",
+  "/image/a3.png",
+  "/image/a4.png",
+  "/image/a5.png",
+  "/image/a6.png",
+  "/image/a7.png",
+  "/image/a8.png",
+  "/image/a9.png",
+  "/image/a10.png",
+  "/image/a11.png",
+  "/image/a12.png",
+  "/image/a13.png",
+  "/image/a14.png",
 ];
 
 
 const inspiration = [
   {
-    img: "/cdo.png",
+    img: "/image/cdo.png",
     name: "Abhinav Gopal (IAS)",
     role: "Ghaizabad || CDO",
   },
@@ -32,12 +32,12 @@ const inspiration = [
 
 const codeyogi = [
   {
-    img: "/ceo.png",
+    img: "/image/ceo.png",
     name: "Prsant Codeyogi",
     role: "Codeyogi || CEO",
   },
   {
-    img: "/coo.png",
+    img: "/image/coo.png",
     name: "Rakesh Sehgal",
     role: "Codeyogi || COO",
   },
@@ -45,17 +45,17 @@ const codeyogi = [
 
 const classTeacher = [
   {
-    img: "/demo.png",
+    img: "/image/demo.png",
     name: "Mr. Yogendra Choudhary",
     role: "Class Teacher || 10th (Science)",
   },
   {
-    img: "/demo.png",
+    img: "/image/demo.png",
     name: "Mr. Aaloke",
     role: "Class Teacher || 12th (PCM)",
   },
   {
-    img: "/demo.png",
+    img: "/image/demo.png",
     name: "Mr. Gupta",
     role: "Class Teacher || 12th (Arts)",
   },
@@ -63,17 +63,17 @@ const classTeacher = [
 
 const team = [
   {
-    img: "/sunny.png",
+    img: "/image/sunny.png",
     name: "Sunny Prajapati",
     role: "Creater",
   },
   {
-    img: "/Ashwani.png",
+    img: "/image/Ashwani.png",
     name: "Ashwani Prajapati",
     role: "Developer",
   },
   {
-    img: "/prince.png",
+    img: "/image/prince.png",
     name: "Prince Jatav",
     role: "Client",
   },
@@ -117,7 +117,7 @@ export default function About() {
       {/* SCROLL CONTENT */}
       <div className="relative z-10 p-6 space-y-16">
         {/* Our Inspiration */}
-        <Section title="🌟 Our Inspiration">
+        <Section title="🌟 Our Inspiration 🌟">
           <div className="flex flex-wrap justify-center gap-8">
             {inspiration.map((p, i) => (
               <Card key={i} {...p} />
