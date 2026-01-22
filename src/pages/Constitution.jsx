@@ -86,7 +86,7 @@ export default function Gallery() {
 
               <div className="p-4 text-center">
                 <h3 className="text-lg font-bold">{c.title}</h3>
-                <p className="mt-1 text-sm text-gray-600">{c.text}</p>
+                <p className="mt-1 text-sm text-black">{c.text}</p>
 
                 <Link
                   to={`/gallery/${c.id}`}

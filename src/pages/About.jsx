@@ -46,8 +46,8 @@ const codeyogi = [
 const classTeacher = [
   {
     img: "/demo.png",
-    name: "Mr. Sharma",
-    role: "Class Teacher",
+    name: "Mr. Yogendra Choudhary",
+    role: "Class Teacher || 10th (Science)",
   },
   {
     img: "/demo.png",
@@ -57,7 +57,7 @@ const classTeacher = [
   {
     img: "/demo.png",
     name: "Mr. Gupta",
-    role: "Class Teacher",
+    role: "Class Teacher || 12th (Arts)",
   },
 ];
 
@@ -73,7 +73,7 @@ const team = [
     role: "Developer",
   },
   {
-    img: "https://picsum.photos/300/309",
+    img: "/prince.png",
     name: "Prince Jatav",
     role: "Client",
   },

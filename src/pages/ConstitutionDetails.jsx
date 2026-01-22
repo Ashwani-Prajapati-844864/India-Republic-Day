@@ -12,36 +12,36 @@ const DATA = [
     id: 1,
     title: "Dr. B. R. Ambedkar",
     img: "/c1.jpg",
-    en: "Dr. B. R. Ambedkar was the chief architect of the Indian Constitution. He dedicated his life to equality, justice and education for all citizens.",
-    hi: "डॉ. भीमराव अंबेडकर भारतीय संविधान के मुख्य निर्माता थे। उन्होंने अपना जीवन समानता, न्याय और सभी नागरिकों की शिक्षा के लिए समर्पित किया।",
+    en: "The Chairman of the Drafting Committee, considered the chief architect of the Constitution, known for his deep knowledge of constitutional law.",
+    hi: "ड्राफ्टिंग कमेटी के चेयरमैन, जिन्हें संविधान का मुख्य निर्माता माना जाता है, वे संवैधानिक कानून के अपने गहरे ज्ञान के लिए जाने जाते थे।",
   },
   {
     id: 2,
-    title: "Indian Constitution",
+    title: "Sardar Vallabhbhai Patel",
     img: "/c2.jpg",
-    en: "The Constitution of India is the supreme law of the country. It defines political principles and guarantees rights to citizens.",
-    hi: "भारत का संविधान देश का सर्वोच्च कानून है। यह राजनीतिक सिद्धांतों को परिभाषित करता है और नागरिकों को अधिकार प्रदान करता है।",
+    en: "Headed key committees like the Advisory Committee on Fundamental Rights and the Provincial Constitution Committee, playing a vital role in integrating princely states.",
+    hi: "उन्होंने मौलिक अधिकारों पर सलाहकार समिति और प्रांतीय संविधान समिति जैसी प्रमुख समितियों की अध्यक्षता की, और रियासतों को एकीकृत करने में महत्वपूर्ण भूमिका निभाई।",
   },
   {
     id: 3,
-    title: "Fundamental Rights",
+    title: "Jawaharlal Nehru",
     img: "/c3.jpg",
-    en: "Fundamental Rights protect the freedom and dignity of citizens and ensure equality before law.",
-    hi: "मौलिक अधिकार नागरिकों की स्वतंत्रता और सम्मान की रक्षा करते हैं और कानून के समक्ष समानता सुनिश्चित करते हैं।",
+    en: "Chaired the Union Constitution, Union Powers, and States Committees, introducing the Objectives Resolution that shaped the Constitution's philosophy.",
+    hi: "उन्होंने यूनियन संविधान, यूनियन शक्तियों और राज्यों की समितियों की अध्यक्षता की, और उद्देश्यों का प्रस्ताव पेश किया जिसने संविधान के दर्शन को आकार दिया।",
   },
   {
     id: 4,
-    title: "Preamble of India",
+    title: "Dr. Rajendra Prasad",
     img: "/c4.jpg",
-    en: "The Preamble reflects the spirit of the Constitution and defines India as a sovereign, socialist, secular and democratic republic.",
-    hi: "प्रस्तावना संविधान की आत्मा को दर्शाती है और भारत को संप्रभु, समाजवादी, धर्मनिरपेक्ष और लोकतांत्रिक गणराज्य घोषित करती है।",
+    en: "The President of the Constituent Assembly, guiding its proceedings and chairing important committees like the Rules of Procedure and Steering Committee.",
+    hi: "प्संविधान सभा के अध्यक्ष, जो इसकी कार्यवाही का मार्गदर्शन करते थे और प्रक्रिया के नियमों और संचालन समिति जैसी महत्वपूर्ण समितियों की अध्यक्षता करते थे।",
   },
   {
     id: 5,
-    title: "Democracy",
+    title: "Maulana Abul Kalam Azad",
     img: "/c5.jpg",
-    en: "Democracy gives power to the people to choose their leaders and shape the future of the nation.",
-    hi: "लोकतंत्र लोगों को अपने नेताओं को चुनने और राष्ट्र का भविष्य निर्धारित करने की शक्ति देता है।",
+    en: "A prominent leader who was a member of the Constituent Assembly and influential in shaping educational and minority provisions.",
+    hi: "एक जाने-माने नेता जो संविधान सभा के सदस्य थे और शिक्षा और अल्पसंख्यक प्रावधानों को बनाने में प्रभावशाली थे।",
   },
   {
     id: 101,
@@ -111,10 +111,10 @@ export default function ConstitutionDetails() {
         </h1>
 
         {/* English */}
-        <p className="mb-4 text-lg text-gray-700">{item.en}</p>
+        <p className="mb-4 text-lg text-black">{item.en}</p>
 
         {/* Hindi */}
-        <p className="mb-6 text-lg text-gray-800">{item.hi}</p>
+        <p className="mb-6 text-lg text-black">{item.hi}</p>
 
         {/* Back Button */}
         <div className="text-center">
