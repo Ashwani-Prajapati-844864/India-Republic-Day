@@ -8,7 +8,7 @@ export default function Intro() {
       className="flex flex-col items-center justify-end min-h-screen p-6 pb-20 text-center bg-center bg-cover intro-animate"
       style={{
         backgroundImage:
-          "url(https://images.unsplash.com/photo-1568044112405-2b0ec05ca10c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+          "url(/image/frunt.png)",
       }}
     >
       {/* Dark overlay */}
