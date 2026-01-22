@@ -9,7 +9,7 @@ export default function Poem() {
       {/* Image Card */}
       <div className="w-full max-w-sm mx-auto overflow-hidden transition-transform duration-500 bg-white shadow-2xl sm:max-w-md lg:max-w-3xl rounded-2xl hover:scale-105">
         <img
-          src="/great.png"
+          src="/kavita.png"
           alt="India"
           className="object-cover w-full h-64"
         />

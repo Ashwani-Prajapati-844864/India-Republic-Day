@@ -70,7 +70,7 @@ export default function Home() {
                 className={`transition-all duration-500
   ${
     index === 0
-      ? "text-5xl md:text-6xl font-bold text-black" // 👈 TOP LINE STYLE
+      ? "text-5xl md:text-6xl font-bold text-black mb-8" // 👈 TOP LINE STYLE
       : "text-2xl md:text-4xl text-gray-700"
   }
   ${showText ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}
