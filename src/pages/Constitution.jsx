@@ -46,7 +46,6 @@ const leaderCards = [
     img: "/d2.png",
     title: "Sukhdev",
     text: "“इंक़लाब ज़िंदाबाद”",
-    eh: "hello",
   },
   {
     id: 103,
@@ -60,7 +59,6 @@ const leaderCards = [
     img: "/d4.png",
     title: "Chandrashekhar Azad",
     text: "दुश्मनों की गोलियों का हम सामना करेंगे, आज़ाद ही रहे हैं, आज़ाद ही रहेंगे।”",
-    eh: "hello",
   },
   {
     id: 105,
