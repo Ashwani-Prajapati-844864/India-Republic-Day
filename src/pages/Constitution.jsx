@@ -38,31 +38,36 @@ const leaderCards = [
     id: 101,
     img: "/d1.png",
     title: "Bhagat Singh",
-    text: "Bhagat Singh...........",
+    text: "“इंक़लाब ज़िंदाबाद”",
+    eh: "“साम्राज्यवाद मुर्दाबाद”",
   },
   {
     id: 102,
     img: "/d2.png",
     title: "Sukhdev",
-    text: "Sukhdev...............",
+    text: "“इंक़लाब ज़िंदाबाद”",
+    eh: "hello",
   },
   {
     id: 103,
     img: "/d3.png",
     title: "Rajguru",
-    text: "Rajguru......",
+    text: "“इंक़लाब ज़िंदाबाद”",
+    eh: "“भारत माता की जय”",
   },
   {
     id: 104,
     img: "/d4.png",
     title: "Chandrashekhar Azad",
-    text: "Chandrashekhar Azad......",
+    text: "दुश्मनों की गोलियों का हम सामना करेंगे, आज़ाद ही रहे हैं, आज़ाद ही रहेंगे।”",
+    eh: "hello",
   },
   {
     id: 105,
     img: "/d5.png",
     title: "Subhas Chandra Bose",
-    text: "Subhas Chandra Bose......",
+    text: "“तुम मुझे खून दो, मैं तुम्हें आज़ादी दूँगा।”",
+    eh: "“जय हिंद”",
   },
 ];
 
@@ -117,6 +122,7 @@ export default function Gallery() {
               <div className="p-4 text-center">
                 <h3 className="text-lg font-bold">{c.title}</h3>
                 <p className="mt-1 text-sm text-gray-600">{c.text}</p>
+                <p className="mt-1 text-sm text-gray-600">{c.eh}</p>
 
                 <Link
                   to={`/gallery/${c.id}`}
