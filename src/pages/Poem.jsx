@@ -6,7 +6,15 @@ export default function Poem() {
         background: "linear-gradient(to bottom, #ff9933, white, #138808)",
       }}
     >
-      <h1 className="mb-6 text-3xl font-bold text-center">...कविता...</h1>
+      {/* Image Card */}
+      <div className="w-full max-w-sm mx-auto overflow-hidden transition-transform duration-500 bg-white shadow-2xl sm:max-w-md lg:max-w-3xl rounded-2xl hover:scale-105">
+        <img
+          src="/great.png"
+          alt="India"
+          className="object-cover w-full h-64"
+        />
+      </div>
+      <h1 className="mt-2 mb-6 text-3xl font-bold text-center">...कविता...</h1>
 
       <div className="max-w-3xl p-6 mx-auto bg-white shadow-lg rounded-xl">
         <p className="mb-3 text-lg">
