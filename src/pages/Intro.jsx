@@ -7,7 +7,7 @@ export default function Intro() {
     <div
       className="flex flex-col items-center justify-end min-h-screen p-6 pb-20 text-center bg-center bg-cover intro-animate"
       style={{
-        backgroundImage: "url(/image/frunt.png)",
+        backgroundImage: "url(public/image/frunt.png)",
       }}
     >
       {/* Dark overlay */}
