@@ -9,7 +9,7 @@ export default function Quiz() {
       {/* Image Card */}
       <div className="w-full max-w-sm overflow-hidden transition-transform duration-500 bg-white shadow-2xl sm:max-w-md lg:max-w-2xl rounded-2xl hover:scale-105">
         <img
-          src="https://images.unsplash.com/photo-1593697820676-60af7b0b4a2d"
+          src="/great.png"
           alt="India"
           className="object-cover w-full h-64"
         />
