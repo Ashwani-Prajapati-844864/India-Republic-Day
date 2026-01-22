@@ -19,7 +19,7 @@ const students = [
     img: "/Ashwani.png",
     en: "I am Ashwani Prajapati, a Class 12 student from Janta Inter College. I have a strong interest in web development and modern technologies.",
     hi: "This project is developed using React with my team members. My role was to work on UI design, components, and responsiveness.",
-    cc:"I enjoy learning new tools and improving my coding skills through real projects.",
+    cc: "I enjoy learning new tools and improving my coding skills through real projects.",
     certificates: [
       "/a1.png",
       "/a2.png",
@@ -42,12 +42,12 @@ const students = [
   {
     id: 3,
     name: "Prince Jatav",
-    roll: "Roll No: 25122106",
-    img: "https://picsum.photos/500/403",
-    en: "Prince is interested in backend and database systems.",
-    hi: "Prince बैकएंड और डेटाबेस सिस्टम में रुचि रखता है।",
+    roll: "Class: 12th",
+    img: "/prince.png",
+    en: "My name is Prince Jatav.",
+    hi: "I am a Student of class 12th(Arts). I Study at Janta Inter Collage, Siroli (Ghaziabad). I belong Ghaziabad District, Uttar Pradesh. ",
 
-    certificates: ["/p1.png"],
+    certificates: ["/p1.png", "/p2.png"],
   },
 ];
 
