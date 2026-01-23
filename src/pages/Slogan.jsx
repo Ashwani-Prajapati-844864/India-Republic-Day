@@ -10,8 +10,7 @@ export default function Quiz() {
       <div className="w-full max-w-3xl">
 
         {/* Image Card */}
-        <div className="overflow-hidden bg-white shadow-2xl rounded-2xl 
-                        transition-all duration-500 hover:scale-[1.02]">
+        <div className="overflow-hidden bg-white shadow-2xl rounded-2xl transition-all duration-500 hover:scale-[1.02]">
           <img
             src="/image/great.png"
             alt="India"

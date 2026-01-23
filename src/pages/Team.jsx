@@ -17,7 +17,7 @@ const students = [
     name: "Ashwani Prajapati",
     roll: "Class: 12th",
     img: "/image/Ashwani.png",
-    en: "I am Ashwani Prajapati, a Class 12 student from Janta Inter College. I have a strong interest in web development and modern technologies.",
+    en: "My name is Ashwani Prajapati, and I am a Class 12 student at Janata Inter College. I am learning to code through Google, and I have a strong interest in web development and modern technologies.",
     hi: "This project is developed using React with my team members. My role was to work on UI design, components, and responsiveness.",
     cc: "I enjoy learning new tools and improving my coding skills through real projects.",
     certificates: [
@@ -63,13 +63,18 @@ export default function Team() {
   }
 
   return (
-    <div
-      className="flex justify-center min-h-screen p-6"
-      style={{
-        background: "linear-gradient(to bottom, #dbeafe, white)",
-      }}
-    >
-      <div className="w-full max-w-3xl p-6 bg-white shadow-2xl rounded-2xl">
+    <div className="relative flex justify-center min-h-screen overflow-hidden">
+      {/* FIXED BACKGROUND LAYER */}
+      <div className="fixed inset-0 -z-10">
+        <div
+          className="w-full h-full"
+          style={{
+            background:
+              "linear-gradient(to bottom, #ff9933 0%, white 50%, #138808 100%)",
+          }}
+        />
+      </div>
+      <div className="w-full max-w-3xl p-6 shadow-2xl bg-amber-100 rounded-2xl">
         {/* Photo */}
         <img
           src={student.img}

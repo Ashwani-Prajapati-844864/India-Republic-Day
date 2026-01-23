@@ -7,8 +7,7 @@ export default function Poem() {
       }}
     >
       {/* Image Card */}
-      <div className="w-full max-w-3xl mx-auto overflow-hidden bg-white shadow-2xl rounded-2xl  transition-all duration-500 hover:scale-[1.02]"
-      >
+      <div className="w-full max-w-3xl mx-auto overflow-hidden bg-white shadow-2xl rounded-2xl  transition-all duration-500 hover:scale-[1.02]">
         <img
           src="/image/kavita.png"
           alt="India"
@@ -17,7 +16,7 @@ export default function Poem() {
       </div>
       <h1 className="mt-2 mb-6 text-3xl font-bold text-center">...कविता...</h1>
 
-      <div className="w-full max-w-3xl mx-auto overflow-hidden transition-transform duration-500 bg-white shadow-2xl rounded-2xl hover:scale-105">
+      <div className="w-full max-w-3xl p-8 mx-auto overflow-hidden transition-transform duration-500 bg-white shadow-2xl rounded-2xl hover:scale-105">
         <p className="mb-3 text-lg">
           जलती रही जोहर में नारियां भेड़िये फ़िर भी मौन थे। हमें पढाया गया अकबर”
           महान, तो फिर महाराणा प्रताप कौन थे। 😇😇
@@ -32,7 +31,7 @@ export default function Poem() {
           किन्तु वो रस्सी कहां है जिस पे भगत सिंह , सुखदेव और राजगुरु हसते हुए
           झूले थे 😇😇
         </p>
-        <p>
+        <p className="mb-3 text-lg">
           हालात.ए.मुल्क देख के रोया न गया… कोशिश तो की पर मूंह ढक के सोया न
           गया”. जाने कितने झूले थे फाँसी पर,कितनो ने गोली खाई थी…. क्यो झूठ
           बोलते हो साहब, कि चरखे से आजादी आई थी…. 😥😥😥😥😥😥
