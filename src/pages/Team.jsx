@@ -17,7 +17,7 @@ const students = [
     name: "Ashwani Prajapati",
     roll: "Class: 12th",
     img: "/image/Ashwani.png",
-    en: "My name is Ashwani Prajapati, and I am a Class 12 student at Janata Inter College. I am learning to code through Google, and I have a strong interest in web development and modern technologies.",
+    en: "My name is Ashwani Prajapati, and I am a Class 12 student at Janata Inter College. I am learning to coding through Codeyogi, and I have a strong interest in web development and modern technologies.",
     hi: "This project is developed using React with my team members. My role was to work on UI design, components, and responsiveness.",
     cc: "I enjoy learning new tools and improving my coding skills through real projects.",
     certificates: [
