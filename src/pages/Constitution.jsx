@@ -74,16 +74,16 @@ export default function Gallery() {
   return (
     <div className="flex flex-col items-center px-4 py-10 bg-slate-100">
       {/* ===== TOP BIG CARD CONTAINER ===== */}
-      <div className="w-full max-w-6xl p-6 bg-white shadow-2xl rounded-3xl">
+      <div className="w-full max-w-6xl p-6 mt-10 bg-white shadow-2xl rounded-3xl">
         <h1 className="mb-6 text-3xl font-bold text-center text-blue-900">
           Members Of Constituent
         </h1>
 
-        <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="flex flex-wrap justify-center gap-6">
           {natureCards.map((c) => (
             <div
               key={c.id}
-              className="overflow-hidden transition-all duration-300 border-l-4 border-blue-600 shadow bg-blue-50 rounded-xl hover:shadow-xl hover:-translate-y-2"
+              className="max-w-xl overflow-hidden transition-all duration-300 border-l-4 border-blue-600 shadow w-77 bg-blue-50 rounded-xl hover:shadow-xl hover:-translate-y-2"
             >
               <img src={c.img} className="object-cover w-full h-48" />
 

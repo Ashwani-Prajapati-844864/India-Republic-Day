@@ -7,16 +7,17 @@ export default function Poem() {
       }}
     >
       {/* Image Card */}
-      <div className="w-full max-w-sm mx-auto overflow-hidden transition-transform duration-500 bg-white shadow-2xl sm:max-w-md lg:max-w-3xl rounded-2xl hover:scale-105">
+      <div className="w-full max-w-3xl mx-auto overflow-hidden bg-white shadow-2xl rounded-2xl  transition-all duration-500 hover:scale-[1.02]"
+      >
         <img
           src="/image/kavita.png"
           alt="India"
-          className="object-cover w-full h-64"
+          className="object-cover w-full h-48 sm:h-64 md:h-80 lg:h-96"
         />
       </div>
       <h1 className="mt-2 mb-6 text-3xl font-bold text-center">...कविता...</h1>
 
-      <div className="max-w-3xl p-6 mx-auto bg-white shadow-lg rounded-xl">
+      <div className="w-full max-w-3xl mx-auto overflow-hidden transition-transform duration-500 bg-white shadow-2xl rounded-2xl hover:scale-105">
         <p className="mb-3 text-lg">
           जलती रही जोहर में नारियां भेड़िये फ़िर भी मौन थे। हमें पढाया गया अकबर”
           महान, तो फिर महाराणा प्रताप कौन थे। 😇😇
