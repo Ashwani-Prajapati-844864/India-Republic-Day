@@ -1,36 +1,44 @@
 export default function Quiz() {
   return (
     <div
-      className="flex flex-col items-center justify-center min-h-screen p-6"
+      className="flex justify-center min-h-screen p-4"
       style={{
         background: "linear-gradient(to bottom, #ff9933, white, #138808)",
       }}
     >
-      {/* Image Card */}
-      <div className="w-full max-w-sm overflow-hidden transition-transform duration-500 bg-white shadow-2xl sm:max-w-md lg:max-w-2xl rounded-2xl hover:scale-105">
-        <img
-          src="/image/great.png"
-          alt="India"
-          className="object-cover w-full h-64"
-        />
-      </div>
+      {/* SAME WIDTH CONTAINER */}
+      <div className="w-full max-w-3xl">
 
-      {/* Info Box */}
-      <div className="w-full max-w-sm p-6 mt-8 text-center bg-white shadow-xl sm:max-w-md lg:max-w-2xl rounded-xl">
-        <h1 className="mb-4 text-3xl font-bold text-blue-900">
-          Happy Republic Day
-        </h1>
+        {/* Image Card */}
+        <div className="overflow-hidden bg-white shadow-2xl rounded-2xl 
+                        transition-all duration-500 hover:scale-[1.02]">
+          <img
+            src="/image/great.png"
+            alt="India"
+            className="block object-contain w-full h-auto"
+          />
+        </div>
 
-        <p className="mb-3 text-lg text-black">
-          We will never let the sun of freedom set, we will never let the
+        {/* Info Box */}
+        <div className="p-5 mt-6 text-center bg-white shadow-2xl rounded-2xl
+                        transition-all duration-500 hover:scale-[1.02]">
+          <h1 className="mb-4 text-2xl font-bold text-blue-900 sm:text-3xl">
+            Happy Republic Day
+          </h1>
+
+
+          <p className="mb-3 text-base sm:text-lg">
+            We will never let the sun of freedom set, we will never let the
           sacrifice of the martyrs be dishonored, as long as there is a drop of
           blood left, we will not let the lap of Mother India turn blue!!
-        </p>
+          </p>
 
-        <p className="text-lg text-black">
-          आज़ादी की कभी शाम ना होने देगे, शहीदों की कुरबानी बदनाम ना होने देगे,
+          <p className="text-base sm:text-lg">
+            आज़ादी की कभी शाम ना होने देगे, शहीदों की कुरबानी बदनाम ना होने देगे,
           बची है जो एक बूँद लहू की तब तक भारत माँ का अंचल नीलम ना होने देगे !!
-        </p>
+          </p>
+        </div>
+
       </div>
     </div>
   );
