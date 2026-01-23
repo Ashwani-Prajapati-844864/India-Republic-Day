@@ -56,7 +56,7 @@ const classTeacher = [
   },
   {
     img: "/image/demo.png",
-    name: "Mr. Gupta",
+    name: "Mr. Harish Chandra",
     role: "Class Teacher || 12th (Arts)",
   },
 ];
@@ -65,7 +65,7 @@ const team = [
   {
     img: "/image/sunny.png",
     name: "Sunny Prajapati",
-    role: "Creater",
+    role: "Developer",
   },
   {
     img: "/image/Ashwani.png",
@@ -75,7 +75,7 @@ const team = [
   {
     img: "/image/prince.png",
     name: "Prince Jatav",
-    role: "Client",
+    role: "Developer",
   },
 ];
 
