@@ -33,7 +33,7 @@ const inspiration = [
 const codeyogi = [
   {
     img: "/image/ceo.png",
-    name: "Prsant Codeyogi",
+    name: "Prashant Chaudhary",
     role: "Codeyogi || CEO",
   },
   {
